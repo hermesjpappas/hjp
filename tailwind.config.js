@@ -7,7 +7,11 @@ module.exports = {
       'sans': ['Barlow', 'sans-serif'],
       'serif': ['Young Serif', 'serif']
     },
-    extend: {},
+    extend: {
+      screens: {
+        'xs': '360px',
+      },
+    },
   },
   plugins: [         
     require('tailwindcss'),     
