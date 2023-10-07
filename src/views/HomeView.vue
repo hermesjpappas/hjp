@@ -2,7 +2,15 @@
 </script>
 
 <template>
+<div class="relative w-screen h-screen bg-gray-200">
+<NavBar/>
   <main>
-    <h1 class="text-base">Hello.</h1>
+    
   </main>
+</div>
+
 </template>
+
+<script setup>
+import NavBar from '../components/NavBar.vue'
+</script>
