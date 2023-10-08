@@ -6,6 +6,10 @@ import router from './router'
 
 import './assets/base.css'
 
+import 'floating-vue/dist/style.css'
+
+import FloatingVue from 'floating-vue'
+
 /* import the fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
 
@@ -13,14 +17,30 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faEnvelope, faArrowRight, faCode, faGraduationCap, faLaptopCode} from '@fortawesome/free-solid-svg-icons'
+import {
+  faEnvelope,
+  faArrowRight,
+  faCode,
+  faGraduationCap,
+  faLaptopCode
+} from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faSquareXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 /* add icons to the library */
-library.add(faLinkedin, faGithub, faEnvelope, faSquareXTwitter, faArrowRight, faCode, faGraduationCap, faLaptopCode)
+library.add(
+  faLinkedin,
+  faGithub,
+  faEnvelope,
+  faSquareXTwitter,
+  faArrowRight,
+  faCode,
+  faGraduationCap,
+  faLaptopCode
+)
 
 const app = createApp(App)
   .component('font-awesome-icon', FontAwesomeIcon)
   .use(createPinia())
   .use(router)
+  .use(FloatingVue)
   .mount('#app')
