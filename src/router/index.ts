@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue'
 import CVView from '../views/CVView.vue'
 import StoryView from '../views/StoryView.vue'
 import CodeView from '../views/CodeView.vue'
+import NotFoundPage from '../views/NotFoundPage.vue'
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.BASE_URL),
@@ -27,7 +28,7 @@ const router = createRouter({
       name: 'story',
       component: StoryView
     },
-    { path: '/:pathMatch(.*)*', name: 'not-found', component: HomeView }
+    { path: '/:pathMatch(.*)*', name: 'not-found', component: NotFoundPage }
   ]
 })
 

@@ -20,6 +20,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
   faEnvelope,
   faArrowRight,
+  faArrowLeft,
   faCode,
   faGraduationCap,
   faLaptopCode,
@@ -34,6 +35,7 @@ library.add(
   faEnvelope,
   faSquareXTwitter,
   faArrowRight,
+  faArrowLeft,
   faCode,
   faGraduationCap,
   faLaptopCode,
