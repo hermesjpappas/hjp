@@ -12,7 +12,7 @@
       so we can work together!
     </p>
 
-    <div class="flex flex-col flex-wrap justify-center w-full gap-8 lg:flex-row">
+    <div class="flex flex-row flex-wrap justify-center w-full gap-8">
       <ProjectCard v-for="card in cardsInfoArray" :key="card.title" :cardInfo="card" />
     </div>
   </main>
