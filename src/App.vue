@@ -6,8 +6,8 @@ import NavBar from './components/NavBar.vue'
 <template>
   <div class="flex flex-col w-screen h-screen bg-gray-100">
     <NavBar />
-    <main class="flex-1 overflow-y-auto top-20 xs:top-14">
-      <RouterView />
+    <main class="flex-1 overflow-y-auto sm:overflow-y-scroll top-20 xs:top-14">
+     <RouterView class="animate-fade-up"/> 
     </main>
   </div>
 </template>
