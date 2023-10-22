@@ -44,3 +44,5 @@ const app = createApp(App)
   .use(router)
   .use(FloatingVue)
   .mount('#app')
+
+  

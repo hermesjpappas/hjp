@@ -20,14 +20,6 @@ a {
 a:hover {
   @apply underline text-gray-600
 }
-/* 
-.link {
-  @apply font-semibold text-gray-500;
-}
-
-.link:hover {
-  @apply underline text-gray-600
-} */
 
 .flag {
   @apply w-24 h-14 xs:w-28 xs:h-16 md:w-32 md:h-20 rounded-md border-2 border-gray-700

@@ -1,10 +1,10 @@
 <template>
   <main
-    class="flex flex-col items-center justify-start w-full h-full gap-4 pb-8 xs:gap-6 lg:gap-8 lg:text-lg"
+    class="flex flex-col items-center justify-start w-full min-h-full gap-4 px-6 pb-10 xs:gap-6 lg:gap-8 lg:text-lg lg:px-0"
   >
-    <h1 class="mt-10 font-serif text-3xl xs:text-4xl lg:text-5xl">Down to business.</h1>
-    <h2 class="font-serif text-xl xs:text-2xl lg:text-3xl">The brass tacks.</h2>
-    <article class="flex flex-col items-start justify-start gap-4 px-4 sm:items-center sm:px-0">
+    <h1 class="mt-10">Down to business.</h1>
+    <h2>The brass tacks.</h2>
+    <article class="flex flex-col items-start justify-start gap-4 sm:items-center">
       <p>
         I am a software engineer (focused on web development) with additional experience in other
         fields.
@@ -19,19 +19,19 @@
       <p>For a shorter overview, scroll down below.</p>
     </article>
 
-    <h2 class="mt-8 font-serif text-xl xs:text-2xl lg:text-3xl">I speak these.</h2>
-    <h3 class="font-serif text-lg xs:text-xl lg:text-2xl">native:</h3>
+    <h2>I speak these.</h2>
+    <h3>native:</h3>
     <div class="flex items-center gap-6">
       <img v-tooltip="'Greek'" src="/img/greece.png" class="flag" />
       <img v-tooltip="'US English'" src="/img/us.png" class="flag" />
     </div>
-    <h3 class="font-serif text-lg xs:text-xl lg:text-2xl">a little bit of:</h3>
+    <h3>a little bit of:</h3>
     <div class="flex items-center gap-6">
       <img v-tooltip="'Swedish'" src="/img/sweden.png" class="flag" />
       <img v-tooltip="'Japanese'" src="/img/japan.png" class="flag" />
     </div>
-    <h2 class="mt-8 font-serif text-xl xs:text-2xl lg:text-3xl">I 'speak' these.</h2>
-    <h3 class="font-serif text-lg xs:text-xl lg:text-2xl">mainly:</h3>
+    <h2>I 'speak' these.</h2>
+    <h3>mainly:</h3>
     <div class="flex items-center gap-4 text-2xl xs:text-3xl md:text-5xl lg:text-6xl">
       <a href="https://en.wikipedia.org/wiki/HTML5" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'HTML'" class="devicon-html5-plain"></i
@@ -66,7 +66,7 @@
         ><i v-tooltip="'MongoDB'" class="devicon-mongodb-plain"></i
       ></a>
     </div>
-    <h3 class="font-serif text-lg xs:text-xl lg:text-2xl">a bit of:</h3>
+    <h3 class="font-serif text-base xs:text-xl lg:text-2xl">a bit of:</h3>
     <div class="flex items-center gap-4 text-2xl xs:text-3xl md:text-5xl lg:text-6xl">
       <a href="https://reactjs.org/" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'React'" class="devicon-react-plain"></i
@@ -78,7 +78,7 @@
         ><i v-tooltip="'Bash / Shell'" class="devicon-bash-plain"></i
       ></a>
     </div>
-    <h2 class="mt-8 font-serif text-xl xs:text-2xl lg:text-3xl">I use these.</h2>
+    <h2 class="mt-8">I use these.</h2>
     <div class="flex items-center gap-4 text-2xl xs:text-3xl md:text-5xl lg:text-6xl">
       <a href="https://www.apple.com/macos/sonoma/" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'Mac OS'" class="devicon-apple-original"></i
@@ -102,8 +102,8 @@
         ><i v-tooltip="'Docker'" class="devicon-docker-plain"></i
       ></a>
     </div>
-    <h2 class="mt-8 font-serif text-xl xs:text-2xl lg:text-3xl">I studied here.</h2>
-    <div class="flex flex-col items-start justify-center gap-4 pb-14 md:gap-6">
+    <h2 class="mt-8">I studied here.</h2>
+    <div class="flex flex-col items-start justify-center gap-4 md:gap-6">
       <div class="flex items-center justify-start gap-6">
         <font-awesome-icon
           icon="fa-solid fa-laptop-code"
