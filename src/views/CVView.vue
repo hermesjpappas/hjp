@@ -11,7 +11,10 @@
       </p>
       <p>I thrive in creative environments where I can continue learning.</p>
 
-      <p>You can see and download my CV in PDF form <a href="#">here.</a></p>
+      <p>
+        You can see and download my CV in PDF form <a href="/HJP_CV.pdf" target="_blank">here.</a>
+      </p>
+      <p>To contact me, go back to the <RouterLink to="/">main page</RouterLink>.</p>
       <p>
         You can see some of my projects <RouterLink to="/code" class="link">here</RouterLink> and on
         my <a href="https://github.com/hermesjpappas" target="_blank">Github page</a>.
@@ -53,6 +56,9 @@
       ></a>
     </div>
     <div class="flex items-center gap-4 text-2xl xs:text-3xl md:text-5xl lg:text-6xl">
+      <a href="https://nuxt.com/" target="_blank" class="hover:no-underline"
+        ><i v-tooltip="'Nuxt'" class="devicon-nuxtjs-plain"></i
+      ></a>
       <a href="https://nodejs.org/en" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'Node'" class="devicon-nodejs-plain"></i
       ></a>
