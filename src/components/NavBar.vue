@@ -2,7 +2,7 @@
   <nav
     class="sticky top-0 right-0 flex flex-col items-center justify-start w-full h-20 gap-2 pt-2 bg-white shadow-md xs:pt-0 xs:justify-center xs:flex-row xs:h-14"
   >
-    <RouterLink to="/" class="flex items-center gap-2 pl-5 font-serif text-xl hover:no-underline">
+    <RouterLink to="/" class="flex items-center gap-2 pl-5 font-serif text-xl !no-underline !text-gray-900">
       <font-awesome-icon icon="fa-solid fa-code" class="h-4" />
       <span>hjp</span></RouterLink
     >
@@ -19,3 +19,9 @@
 <script setup lang="ts">
 import { RouterLink } from 'vue-router'
 </script>
+
+<style scoped>
+.router-link-exact-active {
+  @apply text-gray-500 underline
+}
+</style>
