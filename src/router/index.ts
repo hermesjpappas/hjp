@@ -26,7 +26,8 @@ const router = createRouter({
       path: '/story',
       name: 'story',
       component: StoryView
-    }
+    },
+    { path: '/:pathMatch(.*)*', name: 'not-found', component: HomeView }
   ]
 })
 
