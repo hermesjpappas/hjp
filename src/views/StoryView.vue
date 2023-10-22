@@ -22,7 +22,7 @@
 
 <p>The program itself used a curation of open curriculums in combination with live teaching sessions and custom challenges and assignments set to us by our instructors. We were also assigned mentors who supported our learning even further, both in a practical sense, through team code challenges and prep, as well as psychologically, by encouraging us and giving us valuable feedback.</p>
 
-<p>I graduated from Social Hackers Academy having finished multiple projects and assignments, a sample of which you can find in my code portfolio</p>.
+<p>I graduated from Social Hackers Academy having finished multiple projects and assignments, a sample of which you can find in my code portfolio.</p>
 
 <p>In May of 2022, I began working for Suite5, an Information Technology Solutions and Services company. I began as a front-end software engineer, but through my experience there I have not only learned more about the front-end; I have also begun expanding towards the back-end, bringing me closer to my goal of being a full-stack web developer.</p>
 

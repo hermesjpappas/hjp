@@ -22,7 +22,8 @@ import {
   faArrowRight,
   faCode,
   faGraduationCap,
-  faLaptopCode
+  faLaptopCode,
+  faGlobe
 } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin, faSquareXTwitter } from '@fortawesome/free-brands-svg-icons'
 
@@ -35,7 +36,8 @@ library.add(
   faArrowRight,
   faCode,
   faGraduationCap,
-  faLaptopCode
+  faLaptopCode,
+  faGlobe
 )
 
 const app = createApp(App)
@@ -45,4 +47,3 @@ const app = createApp(App)
   .use(FloatingVue)
   .mount('#app')
 
-  
