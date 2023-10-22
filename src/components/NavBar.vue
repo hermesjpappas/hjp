@@ -7,7 +7,7 @@
       <span>hjp</span></RouterLink
     >
     <ul
-      class="flex items-center justify-center w-full h-8 gap-8 font-medium xs:justify-end xs:pr-8"
+      class="flex items-center justify-center w-full h-8 gap-8 font-medium xs:justify-end xs:pr-4"
     >
       <li><RouterLink to="/cv">cv</RouterLink></li>
       <li><RouterLink to="/code">code</RouterLink></li>
