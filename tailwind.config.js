@@ -4,18 +4,14 @@ module.exports = {
   content: [],
   theme: {
     fontFamily: {
-      'sans': ['Barlow', 'sans-serif'],
-      'serif': ['Young Serif', 'serif']
+      sans: ['Barlow', 'sans-serif'],
+      serif: ['Young Serif', 'serif']
     },
     extend: {
       screens: {
-        'xs': '360px',
-      },
-    },
+        xs: '360px'
+      }
+    }
   },
-  plugins: [         
-    require('tailwindcss'),     
-    require('autoprefixer'),     
-  ] 
+  plugins: [require('tailwindcss'), require('autoprefixer'), require('tailwindcss-animated')]
 }
-

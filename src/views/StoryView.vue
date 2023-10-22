@@ -6,7 +6,7 @@
 <h2>My name is Hermes.</h2>
 
 
-<p>I am a front-end web developer from Athens, Greece. When it comes to programming, there is no type of education I haven't had: I was university-educated, then became (and continue to be) self-taught, and also attended a bootcamp for good measure.</p>
+<p>I am a software engineer from Athens, Greece. When it comes to programming, there is no type of education I haven't had: I was university-educated, then became (and continue to be) self-taught, and also attended a bootcamp for good measure.</p>
 
 <p>I am sort of a Computer Science prodigal son. My first degree was a Bachelor of Science in Computer Science at the University of Essex, in the UK. I then moved on to post-graduate studies with a Master of Science in Human-Computer Interaction at KTH, the Royal Institute of Technology, in Sweden.</p>
 
@@ -24,10 +24,10 @@
 
 <p>I graduated from Social Hackers Academy having finished multiple projects and assignments, a sample of which you can find in my code portfolio</p>.
 
-<p>In May of 2022, I began working for Suite5, an Information Technology Solutions and Services company. I began as a Front-end Software Engineer, but through my experience there I have not only learned more about the front-end; I have also begun expanding towards the back-end, bringing me closer to full-stack.</p>
+<p>In May of 2022, I began working for Suite5, an Information Technology Solutions and Services company. I began as a front-end software engineer, but through my experience there I have not only learned more about the front-end; I have also begun expanding towards the back-end, bringing me closer to my goal of being a full-stack web developer.</p>
 
 
-<h2>This brings us to today.</h2>
+<h2 class="mt-8">This brings us to today.</h2>
 
 <p>Nowadays I continue to learn, expand my knowledge, skills and responsibilities, and grow my portfolio while working with interesting projects, as well as with knowledgeable and kind colleagues.</p>
 
@@ -35,7 +35,7 @@
 
 <p>If you came here wanting to collaborate with me or just to talk shop, please don't hesitate to reach out to me through my social links, which you can find on the main page, as well as on my contact page. Thank you for wanting to know more about me and I hope to meet you soon!</p>
 
-<h2>OK, sure, but what else?</h2>
+<h2 class="mt-8">OK, sure, but what else?</h2>
 
 
 <p>You want to know even more about me? You flatter me! OK, I'll indulge your curiosity. We're all more than just one thing, after all, and more than just our chosen profession.</p>

@@ -21,13 +21,14 @@
 
     <RouterLink
       to="/cv"
-      class="flex items-center gap-4 px-6 py-2 mt-10 font-sans font-semibold text-white bg-black border-2 border-black rounded-full hover:text-black hover:bg-white hover:no-underline"
+      class="flex items-center gap-4 px-6 py-2 mt-10 font-sans font-semibold text-white bg-black border-2 border-black rounded-full hover:text-black hover:bg-white hover:no-underline hover:animate-wiggle hover:animate-infinite"
     >
-      <span class="pb-1">About me</span><font-awesome-icon icon="fa-solid fa-arrow-right"
-    /></RouterLink>
+      <span class="pb-1">About me</span><font-awesome-icon icon="fa-solid fa-arrow-right"/></RouterLink
+    >
   </main>
 </template>
 
-<script setup>
+<script setup lang="ts">
 import NavBar from '../components/NavBar.vue'
+
 </script>
