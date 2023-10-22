@@ -5,7 +5,7 @@
     <div class="w-full h-[150px] xs:h-[250px] sm:h-[350px] md:h-[450px] lg:h-[500px]">
       <a :href="props.cardInfo.link" target="_blank">
         <img
-          :src="`/img/${props.cardInfo.img}`"
+          :src="getImageUrl(props.cardInfo.img)"
           class="object-cover object-top w-full h-full rounded-t-xl"
         />
       </a>
@@ -60,6 +60,10 @@ const props = defineProps({
     required: true
   }
 })
+
+const getImageUrl = (path: string) => {
+ return new URL(`../../public/img/${path}`, import.meta.url).href;
+};
 </script>
 
 <style scoped>
