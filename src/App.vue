@@ -2,7 +2,7 @@
 import { RouterLink, RouterView } from 'vue-router'
 import NavBar from './components/NavBar.vue'
 function scrollTop() {
-  document.getElementById('app').scrollIntoView()
+  document.getElementById('app')?.scrollIntoView()
 }
 </script>
 
