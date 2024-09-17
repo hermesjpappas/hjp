@@ -68,8 +68,8 @@
       <a href="https://www.postgresql.org/" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'PostgreSQL'" class="devicon-postgresql-plain"></i
       ></a>
-      <a href="https://www.mongodb.com/" target="_blank" class="hover:no-underline"
-        ><i v-tooltip="'MongoDB'" class="devicon-mongodb-plain"></i
+      <a href="https://www.python.org/" target="_blank" class="hover:no-underline"
+        ><i v-tooltip="'Python'" class="devicon-python-plain"></i
       ></a>
     </div>
     <h3 class="font-serif text-base xs:text-xl lg:text-2xl">a bit of:</h3>
@@ -77,9 +77,7 @@
       <a href="https://reactjs.org/" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'React'" class="devicon-react-plain"></i
       ></a>
-      <a href="https://www.python.org/" target="_blank" class="hover:no-underline"
-        ><i v-tooltip="'Python'" class="devicon-python-plain"></i
-      ></a>
+     
       <a href="https://www.gnu.org/software/bash/" target="_blank" class="hover:no-underline"
         ><i v-tooltip="'Bash / Shell'" class="devicon-bash-plain"></i
       ></a>
@@ -116,7 +114,20 @@
           class="text-2xl xs:text-3xl md:text-5xl"
         />
         <div class="flex flex-col">
-          <p>Web Development Bootcamp</p>
+          <p>Back-End Development Bootcamp</p>
+          <p>
+            <a href="https://boot.dev/" target="_blank">Boot.dev</a>,
+            USA
+          </p>
+        </div>
+      </div>
+      <div class="flex items-center justify-start gap-6">
+        <font-awesome-icon
+          icon="fa-solid fa-laptop-code"
+          class="text-2xl xs:text-3xl md:text-5xl"
+        />
+        <div class="flex flex-col">
+          <p>Front-End Development Bootcamp</p>
           <p>
             <a href="https://socialhackersacademy.org/" target="_blank">Social Hackers Academy</a>,
             Greece
